@@ -1,0 +1,6 @@
+project: savantenvs/libxml2
+target: reader
+cmds:
+  - cmd: /mayhem/reader
+    libfuzzer: true
+    timeout: 5

@@ -1,0 +1,6 @@
+project: savantenvs/libxml2
+target: valid
+cmds:
+  - cmd: /mayhem/valid
+    libfuzzer: true
+    timeout: 5

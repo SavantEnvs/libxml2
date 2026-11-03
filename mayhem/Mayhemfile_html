@@ -1,0 +1,7 @@
+project: savantenvs/libxml2
+target: html
+cmds:
+  - cmd: /mayhem/html
+    libfuzzer: true
+    timeout: 5
+    dictionary: /mayhem/fuzz/html.dict

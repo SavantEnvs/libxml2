@@ -1,0 +1,6 @@
+project: savantenvs/libxml2
+target: xinclude
+cmds:
+  - cmd: /mayhem/xinclude
+    libfuzzer: true
+    timeout: 5
