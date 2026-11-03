@@ -1,0 +1,7 @@
+project: savantenvs/libxml2
+target: lint
+cmds:
+  - cmd: /mayhem/lint
+    libfuzzer: true
+    timeout: 5
+    dictionary: /mayhem/fuzz/lint.dict

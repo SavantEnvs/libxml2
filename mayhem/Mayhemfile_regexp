@@ -1,0 +1,7 @@
+project: savantenvs/libxml2
+target: regexp
+cmds:
+  - cmd: /mayhem/regexp
+    libfuzzer: true
+    timeout: 5
+    dictionary: /mayhem/fuzz/regexp.dict

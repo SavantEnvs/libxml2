@@ -1,0 +1,7 @@
+project: savantenvs/libxml2
+target: xpath
+cmds:
+  - cmd: /mayhem/xpath
+    libfuzzer: true
+    timeout: 5
+    dictionary: /mayhem/fuzz/xpath.dict

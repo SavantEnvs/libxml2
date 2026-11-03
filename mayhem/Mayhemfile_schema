@@ -1,0 +1,7 @@
+project: savantenvs/libxml2
+target: schema
+cmds:
+  - cmd: /mayhem/schema
+    libfuzzer: true
+    timeout: 5
+    dictionary: /mayhem/fuzz/schema.dict

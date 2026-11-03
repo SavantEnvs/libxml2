@@ -1,0 +1,5 @@
+# Prune host-side build outputs from the build context. .git is deliberately KEPT: the image
+# must hold the full mayhem branch history (build.sh and the grader work from /mayhem).
+/build
+/install
+/mayhem/build-tests
